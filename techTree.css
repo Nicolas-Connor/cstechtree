@@ -6,20 +6,22 @@ line {
 	stroke: #fff;
 }
 
-
-
-html { 
-	margin:0; 
-	padding:0 
+a{
+	color: #ffffff;
 }
-body { 
-	min-width:1620px; 
-	min-height:4100px; 
-	margin:0; 
-	padding:0; 
-	background-color:#000; 
-	font-family: Arial, Helvetica, sans-serif; 
-	color:#fff; 
+
+html {
+	margin:0;
+	padding:0
+}
+body {
+	min-width:1620px;
+	min-height:4100px;
+	margin:0;
+	padding:0;
+	background-color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#fff;
 }
 
 .card {
@@ -35,16 +37,16 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 */
-.year1 { 
-	background-color: #944848 
+.year1 {
+	background-color: #944848
 }
-.year2 { 
+.year2 {
 	background-color: #508240
 }
-.year3 {  
+.year3 {
 	background-color:  #45828c
 }
-.year4 { 
+.year4 {
 	background-color: #8c803f
 }
 .layer0{
@@ -65,16 +67,16 @@ body {
 .layer5{
 	top:750px
 }
-.selected { 
-	box-shadow: 0 0 10px 5px #fff; 
+.selected {
+	box-shadow: 0 0 10px 5px #fff;
 	opacity:1 !important;
-	
+
 }
 
-.selectedSecondary { 
+.selectedSecondary {
 	opacity:1 !important;
-	
-	
+
+
 }
 
 .dark{
