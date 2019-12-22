@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+line {
+	stroke: #fff;
+}
+
+
+
+html { 
+	margin:0; 
+	padding:0 
+}
+body { 
+	min-width:1620px; 
+	min-height:4100px; 
+	margin:0; 
+	padding:0; 
+	background-color:#000; 
+	font-family: Arial, Helvetica, sans-serif; 
+	color:#fff; 
+}
+
+.card {
+	transition: 0.3s;
+	border-radius: 5px; /* 5px rounded corners */
+	width: 100px;
+	position:absolute;
+}
+
+/* On mouse-over, add a deeper shadow */
+/*
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+*/
+.year1 { 
+	background-color: #944848 
+}
+.year2 { 
+	background-color: #508240
+}
+.year3 {  
+	background-color:  #45828c
+}
+.year4 { 
+	background-color: #8c803f
+}
+.layer0{
+	top:75px
+}
+.layer1{
+	top:210px
+}
+.layer2{
+	top:345px
+}
+.layer3{
+	top:480px
+}
+.layer4{
+	top:615px
+}
+.layer5{
+	top:750px
+}
+.selected { 
+	box-shadow: 0 0 10px 5px #fff; 
+	opacity:1 !important;
+	
+}
+
+.selectedSecondary { 
+	opacity:1 !important;
+	
+	
+}
+
+.dark{
+	opacity: .1;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+img {
+  	border-radius: 5px 5px 0 0;
+	max-width: 150px;
+}
+p {
+	display: inline-block
+}
+h1 {
+	display: inline-block
+}
+.line{
+	width: 112px;
+	height: 47px;
+	border-bottom: 1px solid #fff;
+	position: absolute;
+}
+
+
+.blurred { opacity:0.3 }
