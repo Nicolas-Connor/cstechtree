@@ -1,8 +1,10 @@
 http://cstechtree.com/
 # How to install locally using WebStorm
 Fork CSTech tree
-![screenshot of fork button](screenshots/fork.PNG)
+
 In GitHub within your new "fork" of this project click on `Clone or download` and copy the URL that pops out
+
+![screenshot of fork button](screenshots/fork.PNG)
 
 Open a random project in WebStorm
 
